@@ -1,3 +1,4 @@
+@media (min-width: 500px) {
 * {
   box-sizing: border-box;
   background: white;
@@ -75,6 +76,13 @@
   padding-left: 8vw;
 }
 
+.flex-container-video {
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  padding-left: 8vw;
+}
+
 .ieee {
   float: center;
   margin: 0 auto;
@@ -127,4 +135,145 @@
 
 .video {
   margin-left: 10.5vw;
+}
+}
+
+@media (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+    background: white;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  .title {
+   text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .subtitle {
+   text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .description {
+    margin-top: -8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .description2 {
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .soundcloud {
+    margin: 0 auto;
+    padding-left: 9.5vw;
+    text-align: center;
+  }
+
+  .description2:hover{
+    transform: scale(1.15);
+  }
+
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 80vw;
+    line-height: 1.2;
+  }
+
+  .intro2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80vw;
+    line-height: 1.2;
+  }
+
+  .contact {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 80vw;
+    line-height: 1.2;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    padding-left: 8vw;
+  }
+
+  .flex-container-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .ieee {
+    float: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 13vw;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    border: 0.5px solid white;
+  }
+
+  .github {
+    float: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 17vw;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    border: 0.5px solid white;
+  }
+
+  .home {
+    float: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    padding-top: 15px;
+    width: 17vw;
+    text-align: center;
+    font-size: 24px;
+    border: 0.5px solid white;
+  }
+
+
+  .home:hover{
+    transform: scale(1.15);
+  }
+
+  .ieee:hover{
+    transform: scale(1.15);
+  }
+
+  .github:hover{
+    transform: scale(1.15);
+  }
+
+  .buttons {
+    margin-left: 10.5vw;
+  }
+
+  .video {
+    width: 96vw
+  }
 }
