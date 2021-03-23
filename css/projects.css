@@ -13,29 +13,14 @@
   text-align: center;
 }
 
-.subtitle {
- text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.intro {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 80vw;
-  line-height: 1.2;
-}
-
 .flex-container {
   display: flex;
   justify-content: center;
   width: 80vw;
-  padding-left: 8vw;
+  padding-left: 12vw;
 }
 
-.work {
+.other_plastics {
   float: center;
   margin: 0 auto;
   margin-top: 5vh;
@@ -45,7 +30,7 @@
   border: 0.5px solid white;
 }
 
-.cv {
+.avs {
   float: center;
   margin: 0 auto;
   margin-top: 5vh;
@@ -55,42 +40,29 @@
   border: 0.5px solid white;
 }
 
-.research {
-  float: center;
-  margin: 0 auto;
-  margin-top: 5vh;
-  padding-top: 15px;
-  text-align: center;
-  font-size: 24px;
-  border: 0.5px solid white;
-}
-
-.projects {
-  float: center;
-  margin: 0 auto;
-  margin-top: 5vh;
-  padding-top: 15px;
-  text-align: center;
-  font-size: 24px;
-  border: 0.5px solid white;
-}
-
-.work:hover{
+.other_plastics:hover{
   transform: scale(1.15);
 }
 
-.cv:hover{
-  transform: scale(1.15);
-}
-
-.research:hover{
-  transform: scale(1.15);
-}
-
-.projects:hover{
+.avs:hover{
   transform: scale(1.15);
 }
 
 .buttons {
   margin-left: 10.5vw;
+}
+
+.home {
+  float: center;
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding-top: 15px;
+  width: 17vw;
+  text-align: center;
+  font-size: 24px;
+  border: 0.5px solid white;
+}
+
+.home:hover{
+  transform: scale(1.15);
 }

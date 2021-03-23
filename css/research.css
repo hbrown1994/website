@@ -35,62 +35,71 @@
   padding-left: 8vw;
 }
 
-.work {
+.thesis {
   float: center;
   margin: 0 auto;
   margin-top: 5vh;
+  padding-top: 15px;
+  width: 17vw;
+  text-align: center;
+  font-size: 24px;
+  border: 0.5px solid white;
+}
+
+.home {
+  float: center;
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding-top: 15px;
+  width: 17vw;
+  text-align: center;
+  font-size: 24px;
+  border: 0.5px solid white;
+}
+
+.ieee {
+  float: center;
+  margin: 0 auto;
+  margin-top: 5vh;
+  width: 13vw;
   padding-top: 15px;
   text-align: center;
   font-size: 24px;
   border: 0.5px solid white;
 }
 
-.cv {
+.github {
   float: center;
   margin: 0 auto;
   margin-top: 5vh;
+  width: 17vw;
   padding-top: 15px;
   text-align: center;
   font-size: 24px;
   border: 0.5px solid white;
 }
 
-.research {
-  float: center;
-  margin: 0 auto;
-  margin-top: 5vh;
-  padding-top: 15px;
-  text-align: center;
-  font-size: 24px;
-  border: 0.5px solid white;
-}
 
-.projects {
-  float: center;
-  margin: 0 auto;
-  margin-top: 5vh;
-  padding-top: 15px;
-  text-align: center;
-  font-size: 24px;
-  border: 0.5px solid white;
-}
-
-.work:hover{
+.thesis:hover{
   transform: scale(1.15);
 }
 
-.cv:hover{
+.home:hover{
   transform: scale(1.15);
 }
 
-.research:hover{
+.ieee:hover{
   transform: scale(1.15);
 }
 
-.projects:hover{
+.github:hover{
   transform: scale(1.15);
 }
 
 .buttons {
+  margin-left: 10.5vw;
+}
+
+.video {
   margin-left: 10.5vw;
 }
