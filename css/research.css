@@ -36,113 +36,10 @@
     padding-left: 8vw;
   }
 
-  .thesis {
-    float: center;
-    margin: 0 auto;
-    margin-top: 5vh;
-    padding-top: 15px;
-    width: 60vw;
-    text-align: center;
-    font-size: 24px;
-    border: 0.5px solid white;
-  }
-
-  .home {
-    float: center;
-    margin: 0 auto;
-    margin-top: 5vh;
-    padding-top: 15px;
-    width: 17vw;
-    text-align: center;
-    font-size: 24px;
-    border: 0.5px solid white;
-  }
-
-  .ieee {
-    float: center;
-    margin: 0 auto;
-    margin-top: 5vh;
-    width: 60vw;
-    padding-top: 15px;
-    text-align: center;
-    font-size: 24px;
-    border: 0.5px solid white;
-  }
-
-  .github {
-    float: center;
-    margin: 0 auto;
-    margin-top: 5vh;
-    width: 60vw;
-    padding-top: 15px;
-    text-align: center;
-    font-size: 24px;
-    border: 0.5px solid white;
-  }
-
-
-  .thesis:hover{
-    transform: scale(1.15);
-  }
-
-  .home:hover{
-    transform: scale(1.15);
-  }
-
-  .ieee:hover{
-    transform: scale(1.15);
-  }
-
-  .github:hover{
-    transform: scale(1.15);
-  }
-
-  .buttons {
-    margin-left: 10.5vw;
-  }
-
-  .video {
-    margin-left: 10.5vw;
-  }
-}
-
-@media (max-width: 500px) {
-  * {
-    box-sizing: border-box;
-    background: white;
-    text-decoration: none;
-    color: black;
-    font-family: sans-serif;
-  }
-
-  .title {
-   text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-
-  .subtitle {
-   text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-
-  .intro {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    width: 80vw;
-    line-height: 1.2;
-  }
-
-  .flex-container {
-    flex-direction: column;
+  .flex-container-video {
     display: flex;
     justify-content: center;
-    width: 80vw;
-    padding-left: 7vw;
+    margin: 0 auto;
   }
 
   .thesis {
@@ -209,8 +106,116 @@
   .buttons {
     margin-left: 10.5vw;
   }
+}
 
-  .video {
-    margin-left: 21.5vw;
+@media (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+    background: white;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+  }
+
+  .title {
+   text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .subtitle {
+   text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 80vw;
+    line-height: 1.2;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    padding-left: 7vw;
+  }
+
+  .flex-container-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .thesis {
+    float: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    padding-top: 15px;
+    width: 17vw;
+    text-align: center;
+    font-size: 24px;
+    border: 0.5px solid white;
+  }
+
+  .home {
+    float: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    padding-top: 15px;
+    width: 17vw;
+    text-align: center;
+    font-size: 24px;
+    border: 0.5px solid white;
+  }
+
+  .ieee {
+    float: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 13vw;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    border: 0.5px solid white;
+  }
+
+  .github {
+    float: center;
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 17vw;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 24px;
+    border: 0.5px solid white;
+  }
+
+
+  .thesis:hover{
+    transform: scale(1.15);
+  }
+
+  .home:hover{
+    transform: scale(1.15);
+  }
+
+  .ieee:hover{
+    transform: scale(1.15);
+  }
+
+  .github:hover{
+    transform: scale(1.15);
+  }
+
+  .buttons {
+    margin-left: 10.5vw;
   }
 }
