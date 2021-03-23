@@ -130,6 +130,7 @@
   }
 
   .flex-container {
+    flex-direction: column;
     display: flex;
     justify-content: center;
     width: 80vw;
