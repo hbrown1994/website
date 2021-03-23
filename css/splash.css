@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
-  background: black;
+  background: white;
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: sans-serif;
 }
 
@@ -16,7 +16,7 @@
 .intro {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
   width: 80vw;
   line-height: 1.2;
 }
@@ -29,8 +29,19 @@
   line-height: 1.2;
 }
 
-.start {
-  text-transform: uppercase;
+.work {
+  float: center;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding-top: 15px;
+  width: 130px;
+  text-align: center;
+  font-size: 24px;
+  border: 0.5px solid white;
+}
+
+.cv {
   float: center;
   padding: 10px;
   margin: 0 auto;
@@ -43,7 +54,6 @@
 }
 
 .research {
-  text-transform: uppercase;
   float: center;
   padding: 10px;
   margin: 0 auto;
@@ -55,7 +65,11 @@
   border: 0.5px solid white;
 }
 
-.start:hover{
+.work:hover{
+  transform: scale(1.15);
+}
+
+.cv:hover{
   transform: scale(1.15);
 }
 
@@ -90,11 +104,4 @@
   text-decoration: none;
   color: red;
   font-family: sans-serif;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 59vw;
 }
