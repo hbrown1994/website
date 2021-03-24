@@ -36,8 +36,10 @@
 }
 
 .soundcloud {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
-  padding-left: 9.5vw;
+  width: 90vw;
   text-align: center;
 }
 
@@ -46,10 +48,9 @@
 }
 
 .intro {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   text-align: left;
-  width: 80vw;
+  width: 90vw;
   line-height: 1.2;
 }
 
@@ -57,7 +58,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 80vw;
+  width: 90vw;
   line-height: 1.2;
 }
 
@@ -79,8 +80,6 @@
 .flex-container-video {
   display: flex;
   justify-content: center;
-  width: 80vw;
-  padding-left: 8vw;
 }
 
 .ieee {
@@ -134,7 +133,9 @@
 }
 
 .video {
-  margin-left: 10.5vw;
+  margin 0 auto;
+  width: 90vw;
+  height: 60vh;
 }
 }
 
@@ -176,8 +177,10 @@
   }
 
   .soundcloud {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
-    padding-left: 9.5vw;
+    width: 90vw;
     text-align: center;
   }
 
@@ -197,7 +200,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 80vw;
+    width: 90vw;
     line-height: 1.2;
   }
 
@@ -218,9 +221,7 @@
 
   .flex-container-video {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
   }
 
   .ieee {
@@ -274,6 +275,8 @@
   }
 
   .video {
-    width: 96vw
+    margin 0 auto;
+    width: 90vw;
+    height: 40vh;
   }
 }
