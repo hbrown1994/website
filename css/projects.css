@@ -17,8 +17,7 @@
   .flex-container {
     display: flex;
     justify-content: center;
-    width: 80vw;
-    padding-left: 12vw;
+
   }
 
   .other_plastics {
@@ -31,27 +30,11 @@
     border: 0.5px solid white;
   }
 
-  .avs {
-    float: center;
-    margin: 0 auto;
-    margin-top: 5vh;
-    padding-top: 15px;
-    text-align: center;
-    font-size: 24px;
-    border: 0.5px solid white;
-  }
 
   .other_plastics:hover{
     transform: scale(1.15);
   }
 
-  .avs:hover{
-    transform: scale(1.15);
-  }
-
-  .buttons {
-    margin-left: 10.5vw;
-  }
 
   .home {
     float: center;
@@ -89,21 +72,9 @@
     flex-direction: column;
     display: flex;
     justify-content: center;
-    width: 80vw;
-    padding-left: 8vw;
   }
 
   .other_plastics {
-    float: center;
-    margin: 0 auto;
-    margin-top: 5vh;
-    padding-top: 15px;
-    text-align: center;
-    font-size: 24px;
-    border: 0.5px solid white;
-  }
-
-  .avs {
     float: center;
     margin: 0 auto;
     margin-top: 5vh;
@@ -117,13 +88,6 @@
     transform: scale(1.15);
   }
 
-  .avs:hover{
-    transform: scale(1.15);
-  }
-
-  .buttons {
-    margin-left: 10.5vw;
-  }
 
   .home {
     float: center;
