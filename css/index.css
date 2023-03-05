@@ -63,15 +63,25 @@
         align-items: stretch;
       }
 
+      .cols-container-block{
+        display: block;
+        flex-wrap: wrap;
+        align-items: stretch;
+      }
+
       .col {
-        margin-right: 3rem;
+        margin-right: 5rem;
+      }
+
+      .bigCol {
+        margin-right: 0rem;
       }
 
       p, li {
         line-height: 1.5rem;
         margin-bottom: 0.125rem;
         animation: change-text 30s infinite;
-        max-width: 900px;
+        max-width: 1100px;
       }
 
       img {
@@ -99,7 +109,8 @@
       }
 
       .col {
-        margin-right: 0.5rem;
+        margin-right: 0rem;
       }
+
 
     }
