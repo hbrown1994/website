@@ -77,6 +77,13 @@
         margin-right: 0rem;
       }
 
+      .vid {
+        max-width: 560px;
+        width: 100%;
+        height: 315px;
+        
+      }
+
       p, li {
         line-height: 1.5rem;
         margin-bottom: 0.125rem;
