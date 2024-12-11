@@ -6,6 +6,10 @@
         font-weight: lighter;
       }
 
+      strong {
+        font-weight:bold;
+       }
+
       body {
         background-color: white;
         color: black;
