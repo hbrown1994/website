@@ -110,6 +110,11 @@
         margin-bottom: 1rem;
         margin-right: 1rem;
       }
+
+      strong {
+        font-weight:bold;
+       }
+       
       .navLinks {
         float: left;
         margin-right: 1rem;
