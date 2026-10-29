@@ -127,3 +127,35 @@
 
 
     }
+
+      h3 {
+        font-size: 1rem;
+        font-weight: normal;
+        font-style: italic;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      audio {
+        display: block;
+        width: 100%;
+        max-width: 560px;
+        margin-bottom: 1rem;
+      }
+
+      figure {
+        margin: 1.5rem 0;
+        max-width: 560px;
+      }
+
+      figure img {
+        width: 100%;
+        padding-top: 0;
+      }
+
+      figcaption {
+        font-size: 0.9rem;
+        font-style: italic;
+        line-height: 1.3rem;
+        margin-top: 0.5rem;
+      }
