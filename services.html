@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Hunter Brown">
     <meta name="description" content="Location recording, mixing, mastering, audio restoration and custom Max/Pd/SuperCollider systems for new music, classical, jazz and experimental music. Based in Berlin, available throughout Germany and Europe.">
+    <link rel="alternate" hreflang="en" href="https://www.hunterbrownsound.com/services.html">
+    <link rel="alternate" hreflang="de" href="https://www.hunterbrownsound.com/leistungen.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.hunterbrownsound.com/services.html">
     <link rel="stylesheet" href="css/index.css">
     <title>Recording, Mixing &amp; Mastering Engineer, Berlin | Hunter Brown</title>
   </head>
@@ -27,6 +30,7 @@
 
       <section>
         <h1>Services</h1>
+        <p>English | <a href="leistungen.html" hreflang="de" lang="de">Deutsch</a></p>
 
         <div class="bigCol">
           <p>
@@ -41,8 +45,8 @@
             non-traditional instrumentations, live electronics, and multichannel speaker setups.
           </p>
           <p>
-            I am also active as an interpreter and performer of live electronic and electroacoustic music, having performed with ensembles
-            such as Ensemble Dal Niente and EnsembleKollektiv, and I design custom software systems for live electronics and sound installation.
+            I am also active as an interpreter and performer of live electronic and electroacoustic music, as well as a designer and developer
+            of custom software systems for live electronic music and sound installations.
           </p>
           <p>
             Ensembles and festivals I have worked with include Ensemble Dal Niente, EnsembleKollektiv, TAK Ensemble, Ensemble Apparat,
@@ -56,7 +60,7 @@
           <h2>Location Recording</h2>
           <ul>
             <li>• I bring a portable high-end recording setup with up to 18 microphone inputs to your concert, rehearsal, church, or studio session.</li>
-            <li>• Recordings for concert documentation, commercial releases, auditions, competitions, and applications.</li>
+            <li>• I can make recordings for concert documentation, commercial releases, auditions, competitions, and applications.</li>
             <li>• My recording setup can also function as a mixing board, enabling me to provide live sound reinforcement and recording at the same time.</li>
           </ul>
 
@@ -120,7 +124,7 @@
 
           <h2 id="quote">Request a Quote</h2>
           <p>
-            Email <a href="mailto:hunterbrownmusic1@gmail.com?subject=Recording%20inquiry">hunterbrownmusic1@gmail.com</a> with a few details and I'll reply with a quote, usually within two working days:
+            Email <a href="#" class="email" data-u="hunterbrownmusic1" data-d="gmail.com" data-s="Recording inquiry">hunterbrownmusic1[@]gmail[.]com</a> with a few details and I'll reply with a quote, usually within two working days:
           </p>
           <ul>
             <li>• Date(s) and location</li>
@@ -220,6 +224,18 @@
           </ul>
         </div>
       </section>
+      <footer>
+        <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a>
+      </footer>
     </div>
+    <script>
+      document.querySelectorAll('a.email').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          e.preventDefault();
+          var s = a.dataset.s ? '?subject=' + encodeURIComponent(a.dataset.s) : '';
+          window.location.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d + s;
+        });
+      });
+    </script>
   </body>
 </html>

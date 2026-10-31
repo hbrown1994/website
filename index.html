@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Hunter Brown">
     <meta name="description" content="Hunter Brown is a Berlin-based composer, improviser, sound artist, and recording, mixing, and mastering engineer.">
+    <link rel="alternate" hreflang="en" href="https://www.hunterbrownsound.com/about.html">
+    <link rel="alternate" hreflang="de" href="https://www.hunterbrownsound.com/ueber.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.hunterbrownsound.com/about.html">
     <link rel="stylesheet" href="css/index.css">
     <title>Hunter Brown | Composer, Sound Artist &amp; Audio Engineer, Berlin</title>
   </head>
@@ -29,6 +32,7 @@
 
       <section>
         <h1>About</h1>
+        <p>English | <a href="ueber.html" hreflang="de" lang="de">Deutsch</a></p>
 
           <div class="bigCol">
             <p>
@@ -68,6 +72,7 @@
               <a href="services.html">See Services &rarr;</a>
             </p>
 
+
             <!-- <a href="./500-word-bio.html" target="_blank"> Full Biography</a> -->
             <ul>
               <li>
@@ -83,7 +88,7 @@
      
           <div class="col">
             <ul>
-              <li><a href="mailto:hunterbrownmusic1@gmail.com">hunterbrownmusic1@gmail.com</a></li>
+              <li><a href="#" class="email" data-u="hunterbrownmusic1" data-d="gmail.com">hunterbrownmusic1[@]gmail[.]com</a></li>
               <li>
                 <a href="https://tr.ee/xwa3A_HbBW" target="_blank">Contact Form</a>
               </li> 
@@ -102,6 +107,18 @@
             </ul>
           </div>
       </section>
+      <footer>
+        <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a>
+      </footer>
     </div>
+    <script>
+      document.querySelectorAll('a.email').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          e.preventDefault();
+          var s = a.dataset.s ? '?subject=' + encodeURIComponent(a.dataset.s) : '';
+          window.location.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d + s;
+        });
+      });
+    </script>
   </body>
 </html>

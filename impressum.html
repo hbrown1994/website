@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Hunter Brown">
+    <meta name="robots" content="noindex">
+    <meta name="description" content="Impressum von Hunter Brown.">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Impressum | Hunter Brown</title>
+  </head>
+
+  <body>
+    <div class="containter">
+
+      <header>
+        <h1 class="title">Hunter Brown</h1>
+
+        <nav>
+          <ul>
+            <li><a href="about.html" class="navLinks">About</a></li>
+            <li><a href="services.html" class="navLinks">Services</a></li>
+            <li><a href="work.html" class="navLinks">Work</a></li>
+            <li><a href="events.html" class="navLinks">Events</a></li>
+            <li><a href="press.html" class="navLinks">Press</a></li>   
+          </ul>
+        </nav>
+
+      </header>
+
+      <section>
+        <h1>Impressum</h1>
+        <div class="bigCol">
+          <h2>Angaben gemäß § 5 DDG</h2>
+          <p>
+            Hunter Brown<br>
+            Deutschland
+          </p>
+
+          <h2>Kontakt</h2>
+          <p>E-Mail: <a href="#" class="email" data-u="hunterbrownmusic1" data-d="gmail.com">hunterbrownmusic1[@]gmail[.]com</a></p>
+
+          <!-- UMSATZSTEUER: nur falls vorhanden.
+          <h2>Umsatzsteuer-ID</h2>
+          <p>Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: DE…</p>
+          -->
+
+          <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+          <p>Hunter Brown</p>
+
+          <h2>Haftung für Links</h2>
+          <p>
+            Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte ich keinen Einfluss habe. Für die Inhalte der verlinkten
+            Seiten ist stets der jeweilige Anbieter oder Betreiber verantwortlich. Bei Bekanntwerden von Rechtsverletzungen werde ich derartige
+            Links umgehend entfernen.
+          </p>
+
+          <h2>Urheberrecht</h2>
+          <p>
+            Die Inhalte dieser Website (Texte, Fotos, Audio- und Videoaufnahmen) unterliegen dem Urheberrecht. Eine Verwendung außerhalb der
+            Grenzen des Urheberrechts bedarf der vorherigen Zustimmung.
+          </p>
+
+          <p><a href="datenschutz.html">Datenschutzerklärung</a></p>
+        </div>
+      </section>
+      <footer>
+        <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a>
+      </footer>
+    </div>
+    <script>
+      document.querySelectorAll('a.email').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          e.preventDefault();
+          var s = a.dataset.s ? '?subject=' + encodeURIComponent(a.dataset.s) : '';
+          window.location.href = 'mailto:' + a.dataset.u + '@' + a.dataset.d + s;
+        });
+      });
+    </script>
+  </body>
+</html>
